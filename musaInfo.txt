@@ -1,0 +1,46 @@
+compiler: mcc
+--------------------------------------------------------------------------------
+device#                          0
+Name:                            MTT S5000
+Driver Version:                  4.3
+Runtime Version:                 4.3
+compute capability:              3.1
+pciBusID:                        0x3a
+pciDeviceID:                     0x0
+pciDomainID:                     0x0
+multiProcessorCount:             56
+maxThreadsPerMultiProcessor:     3072
+isMultiGpuBoard:                 1
+clockRate:                       1500 Mhz
+memoryClockRate:                 20000 Mhz
+memoryBusWidth:                  640
+totalGlobalMem:                  79.92 GB
+sharedMemPerMultiprocessor:      192.00 KB
+totalConstMem:                   8192
+sharedMemPerBlock:               192.00 KB
+canMapHostMemory:                1
+regsPerBlock:                    131072
+warpSize:                        32
+l2CacheSize:                     62914560
+computeMode:                     0
+maxThreadsPerBlock:              1024
+maxThreadsDim.x:                 1024
+maxThreadsDim.y:                 1024
+maxThreadsDim.z:                 1024
+maxGridSize.x:                   2147483647
+maxGridSize.y:                   2147483647
+maxGridSize.z:                   2147483647
+concurrentKernels:               1
+cooperativeLaunch:               0
+cooperativeMultiDeviceLaunch:    0
+isIntegrated:                    0
+maxTexture1D:                    32768
+maxTexture2D.width:              32768
+maxTexture2D.height:             32768
+maxTexture3D.width:              16384
+maxTexture3D.height:             16384
+maxTexture3D.depth:              2048
+peers:                           
+non-peers:                       device#0 
+memInfo.total:                   79.92 GB
+memInfo.free:                    79.34 GB (99%)
